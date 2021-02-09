@@ -1,0 +1,81 @@
+.meet__the__team {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mtt__container {
+    width: 70%;
+    text-align: center;
+    position: relative;
+    h1 {
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: 0.255em;
+    }
+}
+
+.mtt__usr__img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid $purple;
+    position: absolute;
+    box-shadow: 0px 12px 42px 1px $purple;
+    img {
+        border-radius: 50%;
+    }
+}
+.mtt__usr__img2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid $green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 12px 42px 1px $green;
+    img {
+        border-radius: 50%;
+    }
+}
+.mtt__usr__img3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid $magenta;
+    position: absolute;
+    top: 150px;
+    right: 800px;
+    box-shadow: 0px 12px 42px 1px $magenta;
+    img {
+        border-radius: 50%;
+    }
+}
+.mtt__usr__img4 {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid $yellow;
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    box-shadow: 0px 12px 42px 1px $yellow;
+    img {
+        border-radius: 50%;
+    }
+}
+.mtt__usr__img5 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid $orange;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    box-shadow: 0px 12px 42px 1px $orange;
+    img {
+        border-radius: 50%;
+    }
+}

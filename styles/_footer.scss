@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    background: $darkBlue;
+}
+.footer__container {
+    text-align: center;
+    color: white;
+    h1 {
+        display: block;
+        margin: 70px;
+    }
+    a{
+        background: $purple;
+        padding: 20px 20px;
+        box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+    }
+}

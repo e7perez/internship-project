@@ -1,0 +1,28 @@
+//Imports
+
+@import "normalize";
+@import "variables";
+@import "fonts";
+
+@import "header";
+@import "landing";
+@import "latest";
+@import "meet";
+@import "solutions";
+@import "footer";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: $lightGrey;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
