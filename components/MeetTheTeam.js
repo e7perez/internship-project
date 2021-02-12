@@ -1,7 +1,7 @@
 import Image from "next/image";
 const MeetTheTeam = () => {
     return (
-        <div className="meet__the__team">
+        <section className="meet__the__team">
             <div className="mtt__container">
                 <h1>Meet The Team</h1>
                 <div className="mtt__usr__img">
@@ -55,7 +55,7 @@ const MeetTheTeam = () => {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default MeetTheTeam;

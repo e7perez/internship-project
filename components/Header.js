@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <div className="header">
+        <nav className="header">
 
             <div className="navbar__container">
                 <div className="navbar">
@@ -31,7 +31,7 @@ const Header = () => {
 
                 </div>
             </div>
-        </div>
+        </nav>
     );
 }
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Latest = () => {
     return (
-        <div className="latest">
+        <section className="latest">
             <div className="latest__container">
                 <div className="latest__container__bar">
                     <h6>Latest Projects</h6>
@@ -25,7 +25,7 @@ const Latest = () => {
                 </div>
             </div>
             
-        </div>
+        </section>
     )
 }
 export default Latest;

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Landing = () => {
     return (
-        <div className="landing">
+        <section className="landing">
             <div className="landing__container">
                 <div className="info__container">
                     <h1>We Give Your Business an Edge<br></br>
@@ -72,7 +72,7 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default Landing;

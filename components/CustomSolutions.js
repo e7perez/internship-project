@@ -1,7 +1,7 @@
 import Image from "next/image";
 const CustomSolutions = () => {
     return (
-        <div className="custom__solutions">
+        <section className="custom__solutions">
             <div className="solutions__container">
                 <h1>Need A Custom Solution?</h1>
                 <div className="solutions__selector">
@@ -26,7 +26,7 @@ const CustomSolutions = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default CustomSolutions;
