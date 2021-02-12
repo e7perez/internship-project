@@ -10,9 +10,9 @@ const Latest = () => {
                 </div>
                 <div className="projects__list__container">
                     <ul className="projects__list">
-                        <li><Image className="projects__img" src="/img/latest_project_1.png" height="400px" width="550px" /></li>
-                        <li><Image className="projects__img" src="/img/latest_project_2.png" height="400px" width="550px" /></li>
-                        <li><Image className="projects__img" src="/img/latest_project_3.png" height="400px" width="550px" /></li>
+                        <li><Image className="projects__img" src="/img/latest_project_1.png" height="400px" width="550px" objectFit="cover" /></li>
+                        <li><Image className="projects__img" src="/img/latest_project_2.png" height="400px" width="550px" objectFit="cover"/></li>
+                        <li><Image className="projects__img" src="/img/latest_project_3.png" height="400px" width="550px" objectFit="cover"/></li>
                     </ul>
                 </div>
                 <div className="latest__links__container">

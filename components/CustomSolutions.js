@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const CustomSolutions = () => {
     return (
         <section className="custom__solutions">
