@@ -20,8 +20,8 @@ const CustomSolutions = () => {
                             <p>Having trouble with installing any of our themes? Well we can help you by installing the theme for you!</p>
                         </div>
                         <div className="img__container">
-                            <Image className="projects__img" src="/img/solutions_img.png" height="450px" width="auto"/>
-                            <Image className="projects__img" src="/img/solutions_img2.png" height="450px" width="auto"/>
+                            <Image className="projects__img" src="/img/custom_solutions1.png" height="450px" width="auto"/>
+                            <Image className="projects__img" src="/img/custom_solutions2.png" height="450px" width="auto"/>
                         </div>
                     </div>
                 </div>
